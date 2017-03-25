@@ -49,6 +49,16 @@
 * Regular Expressions
 * SVG
 * Testing
+    * `mocha`
+    * `chai`
+    * `jasmine`
+    * `phantomJS`
+    * `protractor`
+    * `karma`
+    * `selenium`
+    * [`ava`](https://github.com/avajs/ava)
+    * [`qUnit`](https://qunitjs.com/)
+    * [`Jest`](https://facebook.github.io/jest/)
 * Web Apps
 * Web Security
 * Web Services
@@ -71,6 +81,48 @@
 * [`Grails`](https://grails.org/) (Java Web)
 * [`Spring`](https://spring.io/) (Java Web)
 * [`Node`](https://nodejs.org/en/)
+    * Frameworks
+        * `DoneJS`
+        * `ExpressJS`
+        * `HapiJS`
+        * `Ionic`
+        * `KoaJS`
+        * ME(A|R)N
+        * `MeteorJS`
+        * `SailsJS`
+        * `Connect`
+    * Packages
+        * `grunt`
+        * `gulp`
+        * `underscore`
+        * `lodash`
+        * [`rxjs`](http://reactivex.io/)
+        * `yeoman`
+        * `mongoose`
+        * `sequelize`
+        * `browserify`
+        * `babel`
+        * `pg`
+        * `bluebird`
+        * `request`
+        * `async`
+        * `moment`
+        * `q`
+        * `winston`
+        * `superagent`
+        * `webpack`
+        * `ramda`
+        * `immutable`
+        * `axios`
+        * `passport`
+    * Package Managers
+        * [`npm`](https://www.npmjs.com/)
+        * [`yarn`](https://yarnpkg.com/en/)
+    * Templating Languages
+        * `Pug`
+        * `Handlebars`
+        * `Ninjucks`
+        * `EJS`
 * [`Laravel`](https://laravel.com/) (PHP Web)
 * [`Django`](https://www.djangoproject.com/) (Python Web)
 * [`Flask`](http://flask.pocoo.org/docs/0.12/) (Python Web)
@@ -90,6 +142,13 @@
 * [`jQuery`](https://jquery.com/)
 * [`PolymerJS`](https://www.polymer-project.org/)
 * [`ReactJS`](https://facebook.github.io/react/)
+    * [`create-react-app`](https://github.com/facebookincubator/create-react-app)
+    * [`flux`](https://facebook.github.io/flux/)
+    * [`redux`](http://redux.js.org/)
+    * [`redux-saga`](https://redux-saga.github.io/redux-saga/) [`react-router`](https://reacttraining.com/react-router/web/guides/quick-start)
+    * [`MobX`](https://mobx.js.org/)
+    * [`Next.js`](https://zeit.co/blog/next)
+    * [`velocity-react`](https://github.com/twitter-fabric/velocity-react)
 * [`Three.js`](https://threejs.org/)
 * [`VueJS`](https://vuejs.org/)
 
@@ -114,6 +173,9 @@
     * [`CoffeeScript`](http://coffeescript.org/)
     * ES6
     * [`TypeScript`](https://www.typescriptlang.org/)
+    * Libraries
+        * [`flow`](https://flowtype.org/)
+        *
 
 ## Data Science
 
