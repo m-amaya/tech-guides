@@ -49,20 +49,22 @@
 * Regular Expressions
 * SVG
 * Testing
-    * `mocha`
-    * `chai`
-    * `jasmine`
-    * `phantomJS`
-    * `protractor`
-    * `karma`
-    * `selenium`
+    * [`mocha`](https://mochajs.org/)
+    * [`chai`](http://chaijs.com/)
+    * [`jasmine`](https://jasmine.github.io/)
+    * [`phantomJS`](http://phantomjs.org/)
+    * [`protractor`](http://www.protractortest.org/#/)
+    * [`karma`](https://karma-runner.github.io/1.0/index.html)
+    * [`selenium`](http://www.seleniumhq.org/)
     * [`ava`](https://github.com/avajs/ava)
     * [`qUnit`](https://qunitjs.com/)
-    * [`Jest`](https://facebook.github.io/jest/)
+    * [`jest`](https://facebook.github.io/jest/)
 * Web Apps
 * Web Security
 * Web Services
 * Web Sockets
+    * [`socket.io`](https://socket.io/)
+    * [`ws`](https://github.com/websockets/ws)
 * Web Workers
 
 #### Databases
@@ -81,48 +83,57 @@
 * [`Grails`](https://grails.org/) (Java Web)
 * [`Spring`](https://spring.io/) (Java Web)
 * [`Node`](https://nodejs.org/en/)
+    * Templating Languages
+        * [`ejs`](http://www.embeddedjs.com/)
+        * [`pug`](https://pugjs.org/api/getting-started.html)
+        * [`handlebars`](http://handlebarsjs.com/)
+        * [`nunjucks`](https://mozilla.github.io/nunjucks/)
     * Frameworks
-        * `DoneJS`
-        * `ExpressJS`
-        * `HapiJS`
-        * `Ionic`
-        * `KoaJS`
+        * [`Connect`](https://github.com/senchalabs/connect)
+        * [`ExpressJS`](http://expressjs.com/)
+        * [`KoaJS`](http://koajs.com/)
+        * [`HapiJS`](https://hapijs.com/)
         * ME(A|R)N
-        * `MeteorJS`
-        * `SailsJS`
-        * `Connect`
-    * Packages
-        * `grunt`
-        * `gulp`
-        * `underscore`
-        * `lodash`
+        * [`MeteorJS`](https://www.meteor.com/)
+        * [`SailsJS`](http://sailsjs.com/)
+        * [`DoneJS`](https://donejs.com/)
+        * [`Ionic`](https://ionicframework.com/)
+    * ORMs
+        * [`mongoose`](http://mongoosejs.com/)
+        * [`pg`](https://github.com/brianc/node-postgres)
+        * [`sequelize`](http://docs.sequelizejs.com/en/v3/)
+    * Task Runners
+        * [`grunt`](https://gruntjs.com/)
+        * [`gulp`](http://gulpjs.com/)
+        * [`brunch`](http://brunch.io/)
+        * [`pint`](http://www.pintjs.com/)
+        * [`broccoli`](http://broccolijs.com/)
+    * Module Bundlers
+        * [`browserify`](http://browserify.org/)
+        * [`babel`](https://babeljs.io/)
+        * [`webpack`](https://webpack.github.io/)
+        * [`rollup`](http://rollupjs.org/)
+    * Utility Libraries
+        * [`underscore`](http://underscorejs.org/)
+        * [`lodash`](https://lodash.com/)
+        * [`ramda`](http://ramdajs.com/)
         * [`rxjs`](http://reactivex.io/)
-        * `yeoman`
-        * `mongoose`
-        * `sequelize`
-        * `browserify`
-        * `babel`
-        * `pg`
-        * `bluebird`
-        * `request`
-        * `async`
-        * `moment`
-        * `q`
-        * `winston`
-        * `superagent`
-        * `webpack`
-        * `ramda`
-        * `immutable`
-        * `axios`
-        * `passport`
+        * [`async`](http://caolan.github.io/async/)
+        * [`immutable`](https://facebook.github.io/immutable-js/)
+    * Promise Libraries
+        * [`bluebird`](http://bluebirdjs.com/docs/getting-started.html)
+        * [`q`](http://documentup.com/kriskowal/q/)
+    * HTTP Request Libraries
+        * [`request`](https://github.com/request/request)
+        * [`superagent`](http://visionmedia.github.io/superagent/)
+        * [`axios`](https://github.com/mzabriskie/axios)
     * Package Managers
         * [`npm`](https://www.npmjs.com/)
         * [`yarn`](https://yarnpkg.com/en/)
-    * Templating Languages
-        * `Pug`
-        * `Handlebars`
-        * `Ninjucks`
-        * `EJS`
+    * Other Useful Packages
+        * [`passport`](http://passportjs.org/)
+        * [`winston`](https://github.com/winstonjs/winston)
+        * [`yeoman`](http://yeoman.io/)
 * [`Laravel`](https://laravel.com/) (PHP Web)
 * [`Django`](https://www.djangoproject.com/) (Python Web)
 * [`Flask`](http://flask.pocoo.org/docs/0.12/) (Python Web)
@@ -133,7 +144,8 @@
 
 #### Client Frameworks
 
-* [`AngularJS`](https://angularjs.org/)
+* [`Angular`](https://angularjs.org/)
+    * [`ui-router`](https://ui-router.github.io/)
 * [`Angular2`](https://angular.io/)
 * [`BackboneJS`](http://backbonejs.org/)
 * [`D3.js`](https://d3js.org/)
@@ -145,7 +157,8 @@
     * [`create-react-app`](https://github.com/facebookincubator/create-react-app)
     * [`flux`](https://facebook.github.io/flux/)
     * [`redux`](http://redux.js.org/)
-    * [`redux-saga`](https://redux-saga.github.io/redux-saga/) [`react-router`](https://reacttraining.com/react-router/web/guides/quick-start)
+    * [`redux-saga`](https://redux-saga.github.io/redux-saga/)
+    * [`react-router`](https://reacttraining.com/react-router/web/guides/quick-start)
     * [`MobX`](https://mobx.js.org/)
     * [`Next.js`](https://zeit.co/blog/next)
     * [`velocity-react`](https://github.com/twitter-fabric/velocity-react)
@@ -175,7 +188,8 @@
     * [`TypeScript`](https://www.typescriptlang.org/)
     * Libraries
         * [`flow`](https://flowtype.org/)
-        *
+        * [`prism`](http://prismjs.com/)
+        * [`moment`](https://momentjs.com/)
 
 ## Data Science
 
