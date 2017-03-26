@@ -70,7 +70,7 @@ A **regular expression** is the particular search pattern that is entered to fin
             <td><code>\<</code></td>
             <td>Backslash less-than</td>
             <td>Start of a word</td>
-            <td><code>'\<un'</code></td>
+            <td><code>'\&lt;un'</code></td>
         </tr>
         <tr>
             <td><code>\></code></td>
