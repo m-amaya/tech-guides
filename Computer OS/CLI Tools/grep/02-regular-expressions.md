@@ -23,7 +23,7 @@ A **regular expression** is the particular search pattern that is entered to fin
     </thead>
     <tbody>
         <tr>
-            <td colspan="3"><b>Items to match a single character</b></td>
+            <td colspan="3"><em>Items to match a single character</em></td>
         </tr>
         <tr>
             <td><code>.</code></td>
