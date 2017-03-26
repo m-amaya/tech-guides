@@ -5,7 +5,7 @@
 ### CLI Tools
 
 * [`git`](https://git-scm.com/)
-* `grep`
+* [`grep`](http://www.gnu.org/software/grep/)
 * `nmap`
 * `ssh`
 * `tmux`
