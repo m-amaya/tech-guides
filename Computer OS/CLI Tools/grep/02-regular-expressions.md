@@ -11,7 +11,14 @@ A **regular expression** is the particular search pattern that is entered to fin
 |:---- |:--- |
 | `''` | placed around the regular expression |
 | ` `` ` | executes everything inside as a command, and then uses that as the input string |
-| `""` | same a single quotes, but becomes possible to use environment variables as part of a search pattern |
+| `""` | same as single quotes, but becomes possible to use environment variables as part of a search pattern |
+
+## Regular Expression Precedence
+
+1. Parentheses
+2. Repetition
+2. Concatenation
+3. Alternation
 
 ## Regular Expression Metacharacters
 
@@ -202,10 +209,3 @@ Additionally, regular expressions come with a set of POSIX character definitions
 | `[:upper:]` | Any uppercase letter |
 | `[:lower:]` | Any lowercase letter |
 | `[:cntrl:]` | Control characters |
-
-## Precedence
-
-1. Parentheses
-2. Repetition
-2. Concatenation
-3. Alternation
