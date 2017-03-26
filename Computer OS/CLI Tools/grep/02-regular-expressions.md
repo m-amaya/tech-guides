@@ -183,3 +183,22 @@ A **regular expression** is the particular search pattern that is entered to fin
         </tr>
     </tbody>
 </table>
+
+## POSIX Character Definitions
+
+Additionally, regular expressions come with a set of POSIX character definitions that create shortcuts to find certain classes of characters. POSIX is a set of standards created by the Institute of Electrical and Electronics Engineers (IEEE) to describe how Unix-style operating systems should behave. Among other things, POSIX has definitions on how regular expressions should work with shell utilities such as `grep`.
+
+| POSIX Definition | Contents of character definition |
+| :------------- | :------------- |
+| `[:alpha:]` | Any alphabetical character, regardless of case |
+| `[:digit:]` | Any numerical character |
+| `[:alnum:]` | Any alphabetical or numerical character |
+| `[:blank:]` | Space or tab characters |
+| `[:xdigit:]` | Hexadecimal characters; any number or `A-F` or `a-f` |
+| `[:punct:]` | Any punctuation symbol |
+| `[:print:]` | Any printable character (not control characters) |
+| `[:space:]` | Any whitespace character |
+| `[:graph:]` | Exclude whitespace characters |
+| `[:upper:]` | Any uppercase letter |
+| `[:lower:]` | Any lowercase letter |
+| `[:cntrl:]` | Control characters |
