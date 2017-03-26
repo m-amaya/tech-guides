@@ -16,17 +16,19 @@ A **regular expression** is the particular search pattern that is entered to fin
 ## Regular Expression Metacharacters
 
 <table>
-  <tr>
-    <td>Metacharacter</td>
-    <td>Name</td>
-    <td>Matches</td>
-  </tr>
-  <tr>
-    <td colspan="3"><b>Items to match a single character</b></td>
-  </tr>
-  <tr>
-    <td><code>.</code></td>
-    <td>Dot</td>
-    <td>Any one character</td>
-  </tr>
+    <thead>
+        <th>Metacharacter</th>
+        <th>Name</th>
+        <th>Matches</th>
+    </thead>
+    <tbody>
+        <tr>
+            <td colspan="3"><b>Items to match a single character</b></td>
+        </tr>
+        <tr>
+            <td><code>.</code></td>
+            <td>Dot</td>
+            <td>Any one character</td>
+        </tr>
+    </tbody>
 </table>
