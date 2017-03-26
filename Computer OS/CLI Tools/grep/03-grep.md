@@ -2,9 +2,17 @@
 
 ## Match Control
 
+* `-e <pattern>`, `--regex=<pattern>`
+
+    ```bash
+    $ grep -e -style doc.txt
+    ```
+
+    Ensures that `grep` recognizes the pattern as the regular expression argument. Useful if the regular expression begins with a hyphen.
+
+
 | Option | Example | Description |
 |:------ |:------- |:----------- |
-| `-e <pattern>`, `--regex=<pattern>` | `grep -e -style doc.txt` | Ensures that `grep` recognizes the pattern as the regular expression argument. Useful if the regular expression begins with a hyphen. |
 | `-f <file>`, `--file=<file>` | `grep -f pattern.txt searchhere.txt` | Takes patterns from `file`. This option allows you to input all the patterns you want to match into a file (`pattern.txt`). Then, `grep` searches for all the patterns from `pattern.txt` in the designated file `searchhere.txt`. `grep` return every line that matches any pattern. The pattern file must list one pattern per line. If `pattern.txt` is empty, nothing will match. |
 | `-i`, `--ignore-case` | `grep -i 'help' me.txt` | Ignores capitalization in the given regular expressions, either via the command line or in a file of regular expressions (`-f`). A similar but obsolete synonym to this option is `-y`. |
 | `-v`, `--invert-match` | `grep -v oranges <filename>` | Returns lines that do *NOT* match, instead of lines that do. |
