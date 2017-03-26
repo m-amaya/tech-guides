@@ -34,16 +34,17 @@
 * [Scala](https://www.scala-lang.org/)
 * [Swift](https://swift.org/)
 
-### Web
+## Web
 
-#### Concepts
+### Concepts
 
 * APIs
 * Architecture
 * CORS
 * Functional Programming
 * Reactive Programming
-* [`RabbitMQ`](https://www.rabbitmq.com/)
+* Message Queues
+    * [`RabbitMQ`](https://www.rabbitmq.com/)
 * OAuth 2.0
 * Promises
 * Regular Expressions
@@ -67,14 +68,14 @@
     * [`ws`](https://github.com/websockets/ws)
 * Web Workers
 
-#### Databases
+### Databases
 
 * [`mongoDB`](https://www.mongodb.com/)
 * [`neo4J`](https://neo4j.com/)
 * [`postgreSQL`](https://www.postgresql.org/)
 * [`redis`](https://redis.io/)
 
-#### Server Frameworks
+### Server Frameworks
 
 * [`ASP.NET Core`](https://docs.microsoft.com/en-us/dotnet/articles/core/) (C# Web)
 * Clojure Web
@@ -89,7 +90,7 @@
         * [`handlebars`](http://handlebarsjs.com/)
         * [`nunjucks`](https://mozilla.github.io/nunjucks/)
     * Frameworks
-        * [`Connect`](https://github.com/senchalabs/connect)
+        * [`ConnectJS`](https://github.com/senchalabs/connect)
         * [`ExpressJS`](http://expressjs.com/)
         * [`KoaJS`](http://koajs.com/)
         * [`HapiJS`](https://hapijs.com/)
@@ -142,7 +143,7 @@
 * [`Play`](https://www.playframework.com/) (Scala Web)
 * [`Scalatra`](http://www.scalatra.org/) (Scala Web)
 
-#### Client Frameworks
+### Client Frameworks
 
 * [`Angular`](https://angularjs.org/)
     * [`ui-router`](https://ui-router.github.io/)
@@ -159,17 +160,20 @@
     * [`redux`](http://redux.js.org/)
     * [`redux-saga`](https://redux-saga.github.io/redux-saga/)
     * [`react-router`](https://reacttraining.com/react-router/web/guides/quick-start)
-    * [`MobX`](https://mobx.js.org/)
-    * [`Next.js`](https://zeit.co/blog/next)
+    * [`mobX`](https://mobx.js.org/)
+    * [`next.js`](https://zeit.co/blog/next)
     * [`velocity-react`](https://github.com/twitter-fabric/velocity-react)
 * [`Three.js`](https://threejs.org/)
 * [`VueJS`](https://vuejs.org/)
+    * [`vuex`](https://vuex.vuejs.org/en/)
+    * [`vue-router`](https://router.vuejs.org/en/)
+    * [`nuxt.js`](https://nuxtjs.org/)
 
-#### CMS Frameworks
+### CMS Frameworks
 
 * [`WordPress`](https://wordpress.org/)
 
-#### Web Languages
+### Web Languages
 
 * HTML5
     * Canvas
