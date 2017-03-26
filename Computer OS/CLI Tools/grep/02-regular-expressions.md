@@ -10,7 +10,7 @@ A **regular expression** is the particular search pattern that is entered to fin
 | Type | Use |
 |:---- |:--- |
 | `''` | placed around the regular expression |
-| ```` | executes everything inside as a command, and then uses that as the input string |
+| ` `` ` | executes everything inside as a command, and then uses that as the input string |
 | `""` | same a single quotes, but becomes possible to use environment variables as part of a search pattern |
 
 ## Regular Expression Metacharacters
@@ -22,10 +22,10 @@ A **regular expression** is the particular search pattern that is entered to fin
     <td>Matches</td>
   </tr>
   <tr>
-    <td colspan="3">**Items to match a single character**</td>
+    <td colspan="3"><b>Items to match a single character</b></td>
   </tr>
   <tr>
-    <td>`.`</td>
+    <td><code>.</code></td>
     <td>Dot</td>
     <td>Any one character</td>
   </tr>
