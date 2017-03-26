@@ -202,3 +202,10 @@ Additionally, regular expressions come with a set of POSIX character definitions
 | `[:upper:]` | Any uppercase letter |
 | `[:lower:]` | Any lowercase letter |
 | `[:cntrl:]` | Control characters |
+
+## Precedence
+
+1. Parentheses
+2. Repetition
+2. Concatenation
+3. Alternation
