@@ -46,10 +46,218 @@
 
 ## General Output Control
 
+* `-c`, `--count`
+
+    ```bash
+    $ grep -c contact.html <access.log>
+    ```
+
+    ```bash
+    $ grep -c -v contact.html <access.log>
+    ```
+
+* `--color[=WHEN]`, `--colour[=WHEN]`
+
+    ```bash
+    $ grep -color[=auto] <regexp> <filename>
+    ```
+
+* `-l`, `--files-with-matches`
+
+    ```bash
+    $ grep -l "ERROR:" *.log
+    ```
+
+* `-L`, `--files-without-match`
+
+    ```bash
+    $ grep -L 'ERROR:' *.log
+    ```
+
+* `-m <NUM>`, `--max-count=<NUM>`
+
+    ```bash
+    $ grep -m 10 'ERROR:' *.log
+    ```
+
+* `-o`, `--only-matching`
+
+    ```bash
+    $ grep -o <pattern> <filename>
+    ```
+
+* `-q`, `--quiet`, `--silent`
+
+    ```bash
+    $ grep -q <pattern> <filename>
+    ```
+
+* `-s`, `--no-messages`
+
+    ```bash
+    $ grep -s <pattern> <filename>
+    ```
+
 ## Output Line Prefix Control
+
+* `-b`, `--byte-offset`
+
+    ```bash
+    $ grep -b <pattern> <filename>
+    ```
+
+    ```bash
+    $ grep -b -o <pattern> <filename>
+    ```
+
+* `-H`, `--with-filename`
+
+    ```bash
+    $ grep -H <pattern> <filename>
+    ```
+
+* `-h`, `--no-filename`
+
+    ```bash
+    $ grep -h <pattern> *
+    ```
+
+* `--label=<LABEL>`
+
+    ```bash
+    $ gzip -cd file.gz | grep --label=<LABEL> <pattern>
+    ```
+
+* `-n`, `--line-number`
+
+    ```bash
+    $ grep -n <pattern> <filename>
+    ```
+
+* `-T`, `--initial-tab`
+
+    ```bash
+    $ grep -T <pattern> <filename>
+    ```
+
+* `-u`, `--unix-byte-offsets`
+
+    ```bash
+    $ grep -u -b <pattern> <filename>
+    ```
+
+* `-Z`, `--null`
+
+    ```bash
+    $ grep -Z <pattern> <filename>
+    ```
 
 ## Context Line Control
 
+* `-A <NUM>`, `--after-context=<NUM>`
+
+    ```bash
+    $ grep -A 3 Copyright <filename>
+    ```
+
+* `-B <NUM>`, `--before-context=<NUM>`
+
+    ```bash
+    $ grep -B 3 Copyright <filename>
+    ```
+
+* `-C <NUM>`, `--context=<NUM>`
+
+    ```bash
+    $ grep -C 3 Copyright <filename>
+    ```
+
 ## File and Directory Selection
 
+* `-a`, `--text`
+
+    ```bash
+    $ grep -a <pattern> <filename>
+    ```
+
+* `--binary-files=<TYPE>`
+
+    ```bash
+    $ grep --binary-files=<TYPE> <pattern> <filename>
+    ```
+
+* `-D <ACTION>`, `--devices=<ACTION>`
+
+    ```bash
+    $ grep -D read 123-45-6789 /dev/hda1
+    ```
+
+* `-d <ACTION>`, `--directories=<ACTION>`
+
+    ```bash
+    $ grep -d <ACTION> <pattern> <path>
+    ```
+
+* `--exclude=<GLOB>`
+
+    ```bash
+    $ grep --exclude=<PATTERN> <path>
+    ```
+
+* `--exclude-from=<FILE>`
+
+    ```bash
+    $ grep --exclude-from=<FILE> <path>
+    ```
+
+* `--exclude-dir=<DIR>`
+
+    ```bash
+    $ grep --exclude-dir=<DIR> <pattern> <path>
+    ```
+
+* `-l`
+
+    ```bash
+    $ grep -l <pattern> <filename>
+    ```
+
+* `--include=<GLOB>`
+
+    ```bash
+    $ grep --include=*.log <pattern> <filename>
+    ```
+
+* `-R`, `-r`, `--recursive`
+
+    ```bash
+    $ grep -R <pattern> <path>
+    $ grep -r <pattern> <path>
+    ```
+
 ## Other Options
+
+* `--line-buffered`
+
+    ```bash
+    $ grep --line-buffered <pattern> <filename>
+    ```
+
+* `--mmap`
+
+    ```bash
+    $ grep --mmap <pattern> <filename>
+    ```
+
+* `-U`, `--binary`
+
+    ```bash
+    $ grep -U <pattern> <filename>
+    ```
+
+* `-V`, `--version`
+* `-z`, `--null-data`
+
+    ```bash
+    $ grep -z <pattern>
+    ```
