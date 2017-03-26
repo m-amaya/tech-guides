@@ -1,5 +1,9 @@
 # Overview
 
+```bash
+$ grep [options] [regexp] [filename]
+```
+
 **Grep** is an acronym for "Global Regular-Expression Print". It is a combination of four different tools:
 
 1. basic regular expressions
